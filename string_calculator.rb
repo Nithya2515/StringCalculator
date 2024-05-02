@@ -1,5 +1,4 @@
 class StringCalculator
-
   def self.add(string)
     check_valid_input(string)
     numbers_array = string.split(/[^[-]\d]/).map(&:to_i)
